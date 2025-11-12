@@ -1,1 +1,1 @@
-# duckdb-etl-serverless
+https://medium.com/@2nick2patel2/serverless-etl-on-a-laptop-seriously-fast-e4c596614bca
