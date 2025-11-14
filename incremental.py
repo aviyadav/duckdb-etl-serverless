@@ -9,7 +9,8 @@ con.execute("CREATE VIEW orders AS SELECT * FROM read_parquet('data/raw/orders_*
 
 # Find new partition window
 last = state["last_ds"]
-new_max = con.execute("SELECT max(ds)::VARCHAR FROM orders").fetchone()[0]
+result = con.execute("SELECT max(ds)::VARCHAR FROM orders").fetchone()
+new_max = result[0] if result else None
 
 # Nothing to do
 if not new_max or new_max <= last:
@@ -18,7 +19,7 @@ if not new_max or new_max <= last:
 # Process only new days
 con.execute("""
 COPY (
-  SELECT ds, status, COUNT(*) AS orders, SUM(total) AS gross
+  SELECT ds, order_status, COUNT(*) AS orders, SUM(total) AS gross
   FROM orders
   WHERE ds > ?
   GROUP BY ALL

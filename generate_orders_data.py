@@ -16,6 +16,7 @@ ROWS_PER_DAY_MIN = 200
 ROWS_PER_DAY_MAX = 500
 
 ORDER_STATUSES = ['shipped', 'pending', 'cancelled', 'new', 'other']
+SEGMENTS = ['Premium', 'Standard', 'Budget', 'Enterprise']
 ITEMS = [
     ('ITM001', 'Laptop'),
     ('ITM002', 'Mouse'),
@@ -34,7 +35,7 @@ ITEMS = [
     ('ITM015', 'SSD'),
 ]
 
-def generate_orders_for_date(date, num_orders):
+def generate_orders_for_date(date, num_orders, customer_segments):
     """Generate random orders data for a specific date"""
     orders = []
     
@@ -43,6 +44,9 @@ def generate_orders_for_date(date, num_orders):
         customer_id = random.randint(1000, 9999)
         customer_name = fake.name()
         status = random.choice(ORDER_STATUSES)
+        
+        # Get customer segment from mapping, or assign random if not found
+        segment = customer_segments.get(customer_id, random.choice(SEGMENTS))
         
         # Generate 1-5 items per order
         num_items = random.randint(1, 5)
@@ -57,6 +61,7 @@ def generate_orders_for_date(date, num_orders):
                 'order_id': order_id,
                 'customer_id': customer_id,
                 'customer_name': customer_name,
+                'customer_segment': segment,
                 'order_status': status,
                 'item_id': item_id,
                 'item_name': item_name,
@@ -67,15 +72,33 @@ def generate_orders_for_date(date, num_orders):
     
     return orders
 
+def load_customer_segments():
+    """Load customer segments from dimension file if it exists"""
+    dim_file = Path("data/dim_customer.parquet")
+    if dim_file.exists():
+        con = dd.connect(database=":memory:")
+        result = con.execute(f"""
+            SELECT customer_id, segment 
+            FROM read_parquet('{dim_file}')
+        """).fetchall()
+        con.close()
+        return {customer_id: segment for customer_id, segment in result}
+    else:
+        print("⚠ Customer dimension file not found. Using random segments.")
+        return {}
+
 def main():
     con = dd.connect(database=":memory:")
+    
+    # Load customer segments from dimension file
+    customer_segments = load_customer_segments()
     
     current_date = START_DATE
     files_created = []
     
     while current_date <= END_DATE:
         num_orders = random.randint(ROWS_PER_DAY_MIN, ROWS_PER_DAY_MAX)
-        orders = generate_orders_for_date(current_date, num_orders)
+        orders = generate_orders_for_date(current_date, num_orders, customer_segments)
         
         # Create a temporary table with the data
         con.execute("DROP TABLE IF EXISTS temp_orders")
@@ -84,6 +107,7 @@ def main():
                 order_id BIGINT,
                 customer_id BIGINT,
                 customer_name VARCHAR,
+                customer_segment VARCHAR,
                 order_status VARCHAR,
                 item_id VARCHAR,
                 item_name VARCHAR,
@@ -96,11 +120,12 @@ def main():
         # Insert the generated data
         for order in orders:
             con.execute("""
-                INSERT INTO temp_orders VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                INSERT INTO temp_orders VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, [
                 order['order_id'],
                 order['customer_id'],
                 order['customer_name'],
+                order['customer_segment'],
                 order['order_status'],
                 order['item_id'],
                 order['item_name'],

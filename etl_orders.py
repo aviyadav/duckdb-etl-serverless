@@ -21,7 +21,7 @@ def timer(name):
 # 1) Ingest: lazily scan columns you actually need
 con.execute(f"""
     CREATE OR REPLACE VIEW orders AS
-    SELECT order_id, customer_id, status, total, ds
+    SELECT order_id, customer_id, order_status, total, ds
     FROM read_parquet('{RAW / "orders_*.parquet"}')
 """)
 
@@ -32,11 +32,11 @@ con.execute("""
         order_id::BIGINT,
         customer_id::BIGINT,
         CASE
-            WHEN status ILIKE 'shipp%' THEN 'shipped'
-            WHEN status ILIKE 'pend%'  THEN 'pending'
-            WHEN status ILIKE 'canc%'  THEN 'cancelled'
+            WHEN order_status ILIKE 'shipp%' THEN 'shipped'
+            WHEN order_status ILIKE 'pend%'  THEN 'pending'
+            WHEN order_status ILIKE 'canc%'  THEN 'cancelled'
             ELSE 'other'
-        END AS status,
+        END AS order_status,
         CAST(total AS DOUBLE) AS total,
         CAST(ds AS DATE)       AS ds
     FROM orders
@@ -48,14 +48,14 @@ result = con.execute("""
     SELECT
       COUNT(*)                       AS rows_total,
       SUM(total < 0)                 AS neg_totals,
-      SUM(status NOT IN ('shipped','pending','cancelled','other')) AS bad_status
+      SUM(order_status NOT IN ('shipped','pending','cancelled','other')) AS bad_status
     FROM orders_clean
 """)
 tests = result.fetchone()
 
 assert tests is not None, "No test results returned"
 assert tests[1] == 0, "Negative totals found"
-assert tests[2] == 0, "Unexpected status values"
+assert tests[2] == 0, "Unexpected order_status values"
 
 # 4) Aggregate & publish - generate monthly files with date suffix
 with timer("aggregate & write"):
@@ -70,11 +70,11 @@ with timer("aggregate & write"):
         output_file = OUT / f"orders_{month}.parquet"
         con.execute(f"""
             COPY (
-              SELECT ds, status, COUNT(*) AS orders, SUM(total) AS gross
+              SELECT ds, order_status, COUNT(*) AS orders, SUM(total) AS gross
               FROM orders_clean
               WHERE strftime(ds, '%Y-%m') = '{month}'
               GROUP BY ALL
-              ORDER BY ds, status
+              ORDER BY ds, order_status
             ) TO '{output_file}' (FORMAT PARQUET, COMPRESSION ZSTD)
         """)
         print(f"OK → {output_file}")
