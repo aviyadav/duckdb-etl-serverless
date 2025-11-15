@@ -33,7 +33,7 @@ def big_to_smal_join():
         SELECT f.ds, f.customer_id, d.segment, SUM(f.total) AS gross
         FROM read_parquet('data/raw/orders_*.parquet') f
         JOIN dim d USING (customer_id)
-        WHERE f.ds BETWEEN DATE '2025-09-01' AND DATE '2025-09-15'
+        WHERE f.ds BETWEEN DATE '2025-10-01' AND DATE '2025-10-15'
         GROUP BY ALL
         ) TO 'data/out/gross_by_segment.parquet' (FORMAT PARQUET)
     """)
