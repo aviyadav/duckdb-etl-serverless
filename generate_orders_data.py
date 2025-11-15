@@ -11,7 +11,7 @@ RAW.mkdir(parents=True, exist_ok=True)
 
 # Configuration
 START_DATE = datetime(2025, 10, 1)
-END_DATE = datetime(2025, 10, 5)
+END_DATE = datetime(2025, 10, 31)
 ROWS_PER_DAY_MIN = 200
 ROWS_PER_DAY_MAX = 500
 

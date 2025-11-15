@@ -2,7 +2,7 @@ import duckdb as dd, json
 from pathlib import Path
 
 META = Path("data/meta.json")
-state = json.loads(META.read_text()) if META.exists() else {"last_ds": "1970-01-01"}
+state = json.loads(META.read_text()) if META.exists() else {"last_ds": "2024-01-01"}
 
 con = dd.connect(":memory:")
 con.execute("CREATE VIEW orders AS SELECT * FROM read_parquet('data/raw/orders_*.parquet')")

@@ -1,0 +1,756 @@
+order_id,customer_id,customer_name,customer_segment,order_status,item_id,item_name,item_price,total,ds
+147726,7101,Rachel Juarez,Premium,cancelled,ITM005,Headphones,491.95,491.95,2025-10-29
+712786,5556,Philip Patterson,Enterprise,new,ITM004,Monitor,438.08,438.08,2025-10-29
+712786,5556,Philip Patterson,Enterprise,new,ITM001,Laptop,260.2,698.28,2025-10-29
+712786,5556,Philip Patterson,Enterprise,new,ITM003,Keyboard,162.52,860.8,2025-10-29
+712786,5556,Philip Patterson,Enterprise,new,ITM013,Router,70.19,930.99,2025-10-29
+712786,5556,Philip Patterson,Enterprise,new,ITM009,Desk Lamp,298.87,1229.86,2025-10-29
+117076,4851,Shawn Mullen,Enterprise,new,ITM010,Phone Case,405.2,405.2,2025-10-29
+117076,4851,Shawn Mullen,Enterprise,new,ITM006,Webcam,196.49,601.69,2025-10-29
+117076,4851,Shawn Mullen,Enterprise,new,ITM012,Speaker,482.3,1083.99,2025-10-29
+281034,2238,Christopher Wolf,Standard,shipped,ITM004,Monitor,234.71,234.71,2025-10-29
+281034,2238,Christopher Wolf,Standard,shipped,ITM010,Phone Case,62.81,297.52,2025-10-29
+657570,8828,Jill Fowler,Enterprise,pending,ITM003,Keyboard,19.78,19.78,2025-10-29
+657570,8828,Jill Fowler,Enterprise,pending,ITM001,Laptop,456.35,476.13,2025-10-29
+657570,8828,Jill Fowler,Enterprise,pending,ITM002,Mouse,91.09,567.22,2025-10-29
+657570,8828,Jill Fowler,Enterprise,pending,ITM011,Charger,498.7,1065.92,2025-10-29
+657570,8828,Jill Fowler,Enterprise,pending,ITM009,Desk Lamp,329.22,1395.14,2025-10-29
+851400,1166,Lynn Davis,Standard,cancelled,ITM003,Keyboard,419.57,419.57,2025-10-29
+851400,1166,Lynn Davis,Standard,cancelled,ITM009,Desk Lamp,391.68,811.25,2025-10-29
+142253,3065,Sara Johnson,Budget,shipped,ITM004,Monitor,91.86,91.86,2025-10-29
+142253,3065,Sara Johnson,Budget,shipped,ITM001,Laptop,493.64,585.5,2025-10-29
+517758,9410,Katherine Parks,Budget,shipped,ITM012,Speaker,148.48,148.48,2025-10-29
+517758,9410,Katherine Parks,Budget,shipped,ITM002,Mouse,191.53,340.01,2025-10-29
+420099,6672,Donna Gonzalez,Budget,shipped,ITM010,Phone Case,72.71,72.71,2025-10-29
+420099,6672,Donna Gonzalez,Budget,shipped,ITM015,SSD,348.29,421.0,2025-10-29
+420099,6672,Donna Gonzalez,Budget,shipped,ITM001,Laptop,108.41,529.41,2025-10-29
+420099,6672,Donna Gonzalez,Budget,shipped,ITM005,Headphones,468.52,997.93,2025-10-29
+420099,6672,Donna Gonzalez,Budget,shipped,ITM006,Webcam,474.25,1472.18,2025-10-29
+843856,3378,Alyssa Johnson,Enterprise,cancelled,ITM006,Webcam,217.51,217.51,2025-10-29
+843856,3378,Alyssa Johnson,Enterprise,cancelled,ITM013,Router,388.36,605.87,2025-10-29
+843856,3378,Alyssa Johnson,Enterprise,cancelled,ITM012,Speaker,476.28,1082.15,2025-10-29
+843856,3378,Alyssa Johnson,Enterprise,cancelled,ITM008,Desk Chair,229.43,1311.58,2025-10-29
+843856,3378,Alyssa Johnson,Enterprise,cancelled,ITM009,Desk Lamp,432.1,1743.68,2025-10-29
+324023,5835,Pamela Johns,Premium,shipped,ITM003,Keyboard,166.32,166.32,2025-10-29
+324023,5835,Pamela Johns,Premium,shipped,ITM001,Laptop,66.51,232.83,2025-10-29
+324023,5835,Pamela Johns,Premium,shipped,ITM006,Webcam,231.97,464.8,2025-10-29
+324023,5835,Pamela Johns,Premium,shipped,ITM009,Desk Lamp,301.6,766.4,2025-10-29
+331347,5187,Adam Smith,Standard,other,ITM004,Monitor,116.4,116.4,2025-10-29
+263638,2739,Shawn Bell,Premium,shipped,ITM009,Desk Lamp,203.5,203.5,2025-10-29
+263638,2739,Shawn Bell,Premium,shipped,ITM010,Phone Case,309.18,512.68,2025-10-29
+263638,2739,Shawn Bell,Premium,shipped,ITM014,Hard Drive,354.96,867.64,2025-10-29
+263638,2739,Shawn Bell,Premium,shipped,ITM015,SSD,56.17,923.81,2025-10-29
+200452,8088,Michelle Kelly,Budget,other,ITM003,Keyboard,246.48,246.48,2025-10-29
+200452,8088,Michelle Kelly,Budget,other,ITM002,Mouse,390.8,637.28,2025-10-29
+200452,8088,Michelle Kelly,Budget,other,ITM012,Speaker,80.83,718.11,2025-10-29
+331987,2752,Casey Baker,Budget,cancelled,ITM015,SSD,464.56,464.56,2025-10-29
+331987,2752,Casey Baker,Budget,cancelled,ITM006,Webcam,185.69,650.25,2025-10-29
+331987,2752,Casey Baker,Budget,cancelled,ITM004,Monitor,348.74,998.99,2025-10-29
+331987,2752,Casey Baker,Budget,cancelled,ITM010,Phone Case,485.72,1484.71,2025-10-29
+195246,9877,Mario Dillon,Enterprise,cancelled,ITM008,Desk Chair,220.96,220.96,2025-10-29
+195246,9877,Mario Dillon,Enterprise,cancelled,ITM013,Router,202.34,423.3,2025-10-29
+195246,9877,Mario Dillon,Enterprise,cancelled,ITM003,Keyboard,249.84,673.14,2025-10-29
+195246,9877,Mario Dillon,Enterprise,cancelled,ITM001,Laptop,23.22,696.36,2025-10-29
+172772,1075,Lee Carlson,Standard,other,ITM010,Phone Case,160.22,160.22,2025-10-29
+172772,1075,Lee Carlson,Standard,other,ITM001,Laptop,196.8,357.02,2025-10-29
+172772,1075,Lee Carlson,Standard,other,ITM006,Webcam,386.14,743.16,2025-10-29
+430254,2497,Zachary Pena,Budget,new,ITM011,Charger,271.24,271.24,2025-10-29
+430254,2497,Zachary Pena,Budget,new,ITM009,Desk Lamp,185.44,456.68,2025-10-29
+882829,1300,Samantha Ramirez,Enterprise,other,ITM004,Monitor,285.25,285.25,2025-10-29
+882829,1300,Samantha Ramirez,Enterprise,other,ITM001,Laptop,128.59,413.84,2025-10-29
+882829,1300,Samantha Ramirez,Enterprise,other,ITM006,Webcam,352.46,766.3,2025-10-29
+929650,8481,Jesus Sharp,Enterprise,shipped,ITM014,Hard Drive,135.05,135.05,2025-10-29
+929650,8481,Jesus Sharp,Enterprise,shipped,ITM009,Desk Lamp,254.83,389.88,2025-10-29
+929650,8481,Jesus Sharp,Enterprise,shipped,ITM008,Desk Chair,480.32,870.2,2025-10-29
+929650,8481,Jesus Sharp,Enterprise,shipped,ITM003,Keyboard,492.75,1362.95,2025-10-29
+929650,8481,Jesus Sharp,Enterprise,shipped,ITM006,Webcam,402.53,1765.48,2025-10-29
+977548,8458,Alexander Morrison,Budget,other,ITM006,Webcam,242.01,242.01,2025-10-29
+977548,8458,Alexander Morrison,Budget,other,ITM012,Speaker,316.41,558.42,2025-10-29
+977548,8458,Alexander Morrison,Budget,other,ITM010,Phone Case,396.25,954.67,2025-10-29
+977548,8458,Alexander Morrison,Budget,other,ITM015,SSD,270.22,1224.89,2025-10-29
+741615,8331,Hailey Quinn,Budget,other,ITM001,Laptop,485.35,485.35,2025-10-29
+741615,8331,Hailey Quinn,Budget,other,ITM005,Headphones,116.09,601.44,2025-10-29
+741615,8331,Hailey Quinn,Budget,other,ITM014,Hard Drive,209.17,810.61,2025-10-29
+373040,6483,William Robinson,Premium,shipped,ITM001,Laptop,285.2,285.2,2025-10-29
+373040,6483,William Robinson,Premium,shipped,ITM014,Hard Drive,179.4,464.6,2025-10-29
+373040,6483,William Robinson,Premium,shipped,ITM008,Desk Chair,309.94,774.54,2025-10-29
+656169,9274,Colleen Gray,Enterprise,shipped,ITM014,Hard Drive,324.72,324.72,2025-10-29
+656169,9274,Colleen Gray,Enterprise,shipped,ITM010,Phone Case,456.25,780.97,2025-10-29
+693963,8482,Roger Torres,Enterprise,cancelled,ITM002,Mouse,292.52,292.52,2025-10-29
+693963,8482,Roger Torres,Enterprise,cancelled,ITM010,Phone Case,487.67,780.19,2025-10-29
+302868,3146,Heidi Perry,Standard,other,ITM003,Keyboard,377.49,377.49,2025-10-29
+302868,3146,Heidi Perry,Standard,other,ITM009,Desk Lamp,10.06,387.55,2025-10-29
+302868,3146,Heidi Perry,Standard,other,ITM015,SSD,308.7,696.25,2025-10-29
+323981,2958,Kevin Day,Budget,new,ITM015,SSD,133.58,133.58,2025-10-29
+323981,2958,Kevin Day,Budget,new,ITM011,Charger,106.57,240.15,2025-10-29
+323981,2958,Kevin Day,Budget,new,ITM012,Speaker,59.6,299.75,2025-10-29
+323981,2958,Kevin Day,Budget,new,ITM002,Mouse,249.02,548.77,2025-10-29
+628311,6858,Marcia Conway,Standard,cancelled,ITM007,USB Cable,433.35,433.35,2025-10-29
+628311,6858,Marcia Conway,Standard,cancelled,ITM014,Hard Drive,198.01,631.36,2025-10-29
+612470,4679,Michael Maxwell,Premium,shipped,ITM010,Phone Case,400.51,400.51,2025-10-29
+612470,4679,Michael Maxwell,Premium,shipped,ITM005,Headphones,370.31,770.82,2025-10-29
+612470,4679,Michael Maxwell,Premium,shipped,ITM001,Laptop,272.21,1043.03,2025-10-29
+612470,4679,Michael Maxwell,Premium,shipped,ITM004,Monitor,492.02,1535.05,2025-10-29
+718332,7910,Eduardo Moody,Budget,cancelled,ITM006,Webcam,318.92,318.92,2025-10-29
+718332,7910,Eduardo Moody,Budget,cancelled,ITM004,Monitor,192.58,511.5,2025-10-29
+269862,1837,Cheryl Riggs,Premium,cancelled,ITM002,Mouse,341.75,341.75,2025-10-29
+269862,1837,Cheryl Riggs,Premium,cancelled,ITM003,Keyboard,59.54,401.29,2025-10-29
+224384,7808,Dawn Johnson,Premium,new,ITM013,Router,445.68,445.68,2025-10-29
+224384,7808,Dawn Johnson,Premium,new,ITM011,Charger,345.84,791.52,2025-10-29
+224384,7808,Dawn Johnson,Premium,new,ITM007,USB Cable,465.92,1257.44,2025-10-29
+224384,7808,Dawn Johnson,Premium,new,ITM002,Mouse,267.01,1524.45,2025-10-29
+224384,7808,Dawn Johnson,Premium,new,ITM014,Hard Drive,379.45,1903.9,2025-10-29
+648242,6626,Alexandra Jones,Enterprise,pending,ITM002,Mouse,107.63,107.63,2025-10-29
+648242,6626,Alexandra Jones,Enterprise,pending,ITM013,Router,243.27,350.9,2025-10-29
+730181,2903,Michael Coleman,Premium,cancelled,ITM014,Hard Drive,498.29,498.29,2025-10-29
+730181,2903,Michael Coleman,Premium,cancelled,ITM011,Charger,188.9,687.19,2025-10-29
+730181,2903,Michael Coleman,Premium,cancelled,ITM010,Phone Case,302.99,990.18,2025-10-29
+730181,2903,Michael Coleman,Premium,cancelled,ITM002,Mouse,171.74,1161.92,2025-10-29
+730181,2903,Michael Coleman,Premium,cancelled,ITM005,Headphones,58.23,1220.15,2025-10-29
+405776,9765,Amanda Harris,Budget,cancelled,ITM010,Phone Case,136.01,136.01,2025-10-29
+405776,9765,Amanda Harris,Budget,cancelled,ITM015,SSD,17.57,153.58,2025-10-29
+405776,9765,Amanda Harris,Budget,cancelled,ITM007,USB Cable,112.47,266.05,2025-10-29
+405776,9765,Amanda Harris,Budget,cancelled,ITM008,Desk Chair,357.98,624.03,2025-10-29
+405776,9765,Amanda Harris,Budget,cancelled,ITM009,Desk Lamp,322.9,946.93,2025-10-29
+205788,5106,Matthew Blevins,Premium,cancelled,ITM001,Laptop,282.58,282.58,2025-10-29
+205788,5106,Matthew Blevins,Premium,cancelled,ITM006,Webcam,48.89,331.47,2025-10-29
+205788,5106,Matthew Blevins,Premium,cancelled,ITM015,SSD,180.29,511.76,2025-10-29
+205788,5106,Matthew Blevins,Premium,cancelled,ITM011,Charger,259.34,771.1,2025-10-29
+310802,9326,Brandi Cook,Premium,new,ITM008,Desk Chair,373.22,373.22,2025-10-29
+310802,9326,Brandi Cook,Premium,new,ITM014,Hard Drive,54.8,428.02,2025-10-29
+310802,9326,Brandi Cook,Premium,new,ITM001,Laptop,340.41,768.43,2025-10-29
+149977,5227,Joseph Carter,Enterprise,new,ITM004,Monitor,343.27,343.27,2025-10-29
+313811,5528,David Best,Premium,cancelled,ITM013,Router,360.03,360.03,2025-10-29
+313811,5528,David Best,Premium,cancelled,ITM007,USB Cable,416.72,776.75,2025-10-29
+331376,5116,James Armstrong,Premium,shipped,ITM013,Router,236.71,236.71,2025-10-29
+680102,5396,Debra Avery,Budget,shipped,ITM015,SSD,476.46,476.46,2025-10-29
+680102,5396,Debra Avery,Budget,shipped,ITM006,Webcam,390.09,866.55,2025-10-29
+680102,5396,Debra Avery,Budget,shipped,ITM011,Charger,272.76,1139.31,2025-10-29
+680102,5396,Debra Avery,Budget,shipped,ITM003,Keyboard,409.5,1548.81,2025-10-29
+680102,5396,Debra Avery,Budget,shipped,ITM004,Monitor,129.27,1678.08,2025-10-29
+902987,9381,Rodney Young,Enterprise,shipped,ITM007,USB Cable,381.87,381.87,2025-10-29
+902987,9381,Rodney Young,Enterprise,shipped,ITM011,Charger,196.79,578.66,2025-10-29
+902987,9381,Rodney Young,Enterprise,shipped,ITM015,SSD,362.86,941.52,2025-10-29
+902987,9381,Rodney Young,Enterprise,shipped,ITM009,Desk Lamp,102.68,1044.2,2025-10-29
+902987,9381,Rodney Young,Enterprise,shipped,ITM002,Mouse,165.41,1209.61,2025-10-29
+333695,9223,Anthony Nelson,Standard,pending,ITM001,Laptop,306.99,306.99,2025-10-29
+333695,9223,Anthony Nelson,Standard,pending,ITM007,USB Cable,486.94,793.93,2025-10-29
+902181,3379,Jennifer Jones,Enterprise,other,ITM015,SSD,469.05,469.05,2025-10-29
+638663,2718,James Tucker,Enterprise,cancelled,ITM006,Webcam,360.45,360.45,2025-10-29
+638663,2718,James Tucker,Enterprise,cancelled,ITM010,Phone Case,382.46,742.91,2025-10-29
+638663,2718,James Tucker,Enterprise,cancelled,ITM001,Laptop,139.11,882.02,2025-10-29
+638663,2718,James Tucker,Enterprise,cancelled,ITM012,Speaker,55.09,937.11,2025-10-29
+638663,2718,James Tucker,Enterprise,cancelled,ITM008,Desk Chair,371.19,1308.3,2025-10-29
+938500,8282,Travis Davis,Standard,cancelled,ITM011,Charger,333.89,333.89,2025-10-29
+938500,8282,Travis Davis,Standard,cancelled,ITM009,Desk Lamp,423.24,757.13,2025-10-29
+938500,8282,Travis Davis,Standard,cancelled,ITM004,Monitor,387.22,1144.35,2025-10-29
+938500,8282,Travis Davis,Standard,cancelled,ITM007,USB Cable,384.82,1529.17,2025-10-29
+938500,8282,Travis Davis,Standard,cancelled,ITM012,Speaker,297.22,1826.39,2025-10-29
+524290,6188,Erica Hernandez,Budget,pending,ITM015,SSD,160.15,160.15,2025-10-29
+524290,6188,Erica Hernandez,Budget,pending,ITM007,USB Cable,433.8,593.95,2025-10-29
+524290,6188,Erica Hernandez,Budget,pending,ITM006,Webcam,35.18,629.13,2025-10-29
+524290,6188,Erica Hernandez,Budget,pending,ITM009,Desk Lamp,13.85,642.98,2025-10-29
+731453,1033,Valerie Foster,Enterprise,pending,ITM007,USB Cable,79.04,79.04,2025-10-29
+731453,1033,Valerie Foster,Enterprise,pending,ITM013,Router,45.77,124.81,2025-10-29
+731453,1033,Valerie Foster,Enterprise,pending,ITM011,Charger,93.6,218.41,2025-10-29
+731453,1033,Valerie Foster,Enterprise,pending,ITM005,Headphones,298.17,516.58,2025-10-29
+211281,7418,Sarah Harris,Standard,shipped,ITM001,Laptop,254.25,254.25,2025-10-29
+211281,7418,Sarah Harris,Standard,shipped,ITM007,USB Cable,442.45,696.7,2025-10-29
+211281,7418,Sarah Harris,Standard,shipped,ITM004,Monitor,251.25,947.95,2025-10-29
+211281,7418,Sarah Harris,Standard,shipped,ITM009,Desk Lamp,40.71,988.66,2025-10-29
+976922,9665,Danielle Johnson,Enterprise,cancelled,ITM002,Mouse,83.39,83.39,2025-10-29
+814138,1438,Grace Anderson,Premium,cancelled,ITM011,Charger,415.5,415.5,2025-10-29
+814138,1438,Grace Anderson,Premium,cancelled,ITM010,Phone Case,387.51,803.01,2025-10-29
+814138,1438,Grace Anderson,Premium,cancelled,ITM012,Speaker,14.31,817.32,2025-10-29
+948000,4015,Michael Mccoy,Budget,cancelled,ITM008,Desk Chair,58.8,58.8,2025-10-29
+948000,4015,Michael Mccoy,Budget,cancelled,ITM009,Desk Lamp,130.6,189.4,2025-10-29
+948000,4015,Michael Mccoy,Budget,cancelled,ITM005,Headphones,111.05,300.45,2025-10-29
+948000,4015,Michael Mccoy,Budget,cancelled,ITM004,Monitor,291.76,592.21,2025-10-29
+948000,4015,Michael Mccoy,Budget,cancelled,ITM002,Mouse,273.01,865.22,2025-10-29
+263746,7446,Rick Buckley,Enterprise,new,ITM010,Phone Case,172.2,172.2,2025-10-29
+263746,7446,Rick Buckley,Enterprise,new,ITM001,Laptop,407.44,579.64,2025-10-29
+977637,8352,Adam Washington,Standard,shipped,ITM014,Hard Drive,238.27,238.27,2025-10-29
+720296,9338,John Green,Standard,new,ITM003,Keyboard,31.54,31.54,2025-10-29
+720296,9338,John Green,Standard,new,ITM002,Mouse,58.77,90.31,2025-10-29
+596096,5178,Philip Brooks,Budget,cancelled,ITM005,Headphones,26.37,26.37,2025-10-29
+596096,5178,Philip Brooks,Budget,cancelled,ITM011,Charger,443.53,469.9,2025-10-29
+596096,5178,Philip Brooks,Budget,cancelled,ITM010,Phone Case,308.77,778.67,2025-10-29
+596096,5178,Philip Brooks,Budget,cancelled,ITM007,USB Cable,484.94,1263.61,2025-10-29
+596096,5178,Philip Brooks,Budget,cancelled,ITM008,Desk Chair,202.98,1466.59,2025-10-29
+355802,7172,Shannon Riley MD,Budget,other,ITM006,Webcam,157.08,157.08,2025-10-29
+270506,9106,Janet Calhoun,Budget,pending,ITM010,Phone Case,213.56,213.56,2025-10-29
+270506,9106,Janet Calhoun,Budget,pending,ITM012,Speaker,184.32,397.88,2025-10-29
+270506,9106,Janet Calhoun,Budget,pending,ITM011,Charger,231.21,629.09,2025-10-29
+270506,9106,Janet Calhoun,Budget,pending,ITM007,USB Cable,388.55,1017.64,2025-10-29
+449169,7910,Brandon Stone,Budget,new,ITM002,Mouse,105.05,105.05,2025-10-29
+449169,7910,Brandon Stone,Budget,new,ITM009,Desk Lamp,118.81,223.86,2025-10-29
+449169,7910,Brandon Stone,Budget,new,ITM012,Speaker,293.87,517.73,2025-10-29
+449169,7910,Brandon Stone,Budget,new,ITM003,Keyboard,180.5,698.23,2025-10-29
+449169,7910,Brandon Stone,Budget,new,ITM008,Desk Chair,375.26,1073.49,2025-10-29
+950538,9406,Bradley Gonzales,Enterprise,new,ITM011,Charger,317.92,317.92,2025-10-29
+950538,9406,Bradley Gonzales,Enterprise,new,ITM015,SSD,269.8,587.72,2025-10-29
+950538,9406,Bradley Gonzales,Enterprise,new,ITM002,Mouse,419.97,1007.69,2025-10-29
+868971,5091,Evan Vaughn,Standard,shipped,ITM009,Desk Lamp,172.24,172.24,2025-10-29
+868971,5091,Evan Vaughn,Standard,shipped,ITM003,Keyboard,39.34,211.58,2025-10-29
+868971,5091,Evan Vaughn,Standard,shipped,ITM007,USB Cable,451.8,663.38,2025-10-29
+137305,6028,Chelsea Simmons,Premium,pending,ITM004,Monitor,12.29,12.29,2025-10-29
+137305,6028,Chelsea Simmons,Premium,pending,ITM009,Desk Lamp,265.6,277.89,2025-10-29
+137305,6028,Chelsea Simmons,Premium,pending,ITM013,Router,116.92,394.81,2025-10-29
+477603,6457,Sarah Holt,Budget,other,ITM005,Headphones,330.23,330.23,2025-10-29
+312650,2040,Leah Cortez,Standard,shipped,ITM006,Webcam,432.78,432.78,2025-10-29
+602397,2364,Jeffrey Carter,Budget,shipped,ITM004,Monitor,14.51,14.51,2025-10-29
+602397,2364,Jeffrey Carter,Budget,shipped,ITM012,Speaker,20.74,35.25,2025-10-29
+602397,2364,Jeffrey Carter,Budget,shipped,ITM009,Desk Lamp,81.82,117.07,2025-10-29
+602397,2364,Jeffrey Carter,Budget,shipped,ITM008,Desk Chair,121.17,238.24,2025-10-29
+602397,2364,Jeffrey Carter,Budget,shipped,ITM007,USB Cable,30.32,268.56,2025-10-29
+784580,9986,James Hernandez,Enterprise,other,ITM005,Headphones,379.3,379.3,2025-10-29
+784580,9986,James Hernandez,Enterprise,other,ITM004,Monitor,390.58,769.88,2025-10-29
+784580,9986,James Hernandez,Enterprise,other,ITM003,Keyboard,133.17,903.05,2025-10-29
+784580,9986,James Hernandez,Enterprise,other,ITM013,Router,217.79,1120.84,2025-10-29
+416102,5439,Victoria Gonzalez,Budget,shipped,ITM013,Router,210.16,210.16,2025-10-29
+416102,5439,Victoria Gonzalez,Budget,shipped,ITM014,Hard Drive,497.23,707.39,2025-10-29
+416102,5439,Victoria Gonzalez,Budget,shipped,ITM004,Monitor,329.27,1036.66,2025-10-29
+416102,5439,Victoria Gonzalez,Budget,shipped,ITM006,Webcam,493.81,1530.47,2025-10-29
+686714,8274,Katherine Blackwell,Premium,pending,ITM013,Router,439.33,439.33,2025-10-29
+686714,8274,Katherine Blackwell,Premium,pending,ITM001,Laptop,358.11,797.44,2025-10-29
+686714,8274,Katherine Blackwell,Premium,pending,ITM006,Webcam,339.49,1136.93,2025-10-29
+686714,8274,Katherine Blackwell,Premium,pending,ITM012,Speaker,399.3,1536.23,2025-10-29
+857304,2061,Nicole Wilson,Budget,cancelled,ITM008,Desk Chair,220.29,220.29,2025-10-29
+857304,2061,Nicole Wilson,Budget,cancelled,ITM007,USB Cable,377.41,597.7,2025-10-29
+857304,2061,Nicole Wilson,Budget,cancelled,ITM011,Charger,363.75,961.45,2025-10-29
+208905,1540,Shawna Holden,Standard,cancelled,ITM010,Phone Case,450.78,450.78,2025-10-29
+208905,1540,Shawna Holden,Standard,cancelled,ITM007,USB Cable,37.68,488.46,2025-10-29
+208905,1540,Shawna Holden,Standard,cancelled,ITM006,Webcam,37.32,525.78,2025-10-29
+208905,1540,Shawna Holden,Standard,cancelled,ITM008,Desk Chair,173.69,699.47,2025-10-29
+992249,3204,Todd Jones,Enterprise,shipped,ITM011,Charger,273.4,273.4,2025-10-29
+992249,3204,Todd Jones,Enterprise,shipped,ITM012,Speaker,369.31,642.71,2025-10-29
+363960,1039,Meagan Burns,Standard,new,ITM002,Mouse,177.0,177.0,2025-10-29
+363960,1039,Meagan Burns,Standard,new,ITM015,SSD,457.09,634.09,2025-10-29
+363960,1039,Meagan Burns,Standard,new,ITM014,Hard Drive,70.03,704.12,2025-10-29
+363960,1039,Meagan Burns,Standard,new,ITM007,USB Cable,205.76,909.88,2025-10-29
+940861,6555,Tammie Martin,Enterprise,other,ITM008,Desk Chair,379.87,379.87,2025-10-29
+940861,6555,Tammie Martin,Enterprise,other,ITM005,Headphones,316.97,696.84,2025-10-29
+176907,9838,Brooke Faulkner,Premium,cancelled,ITM012,Speaker,125.82,125.82,2025-10-29
+176907,9838,Brooke Faulkner,Premium,cancelled,ITM015,SSD,359.52,485.34,2025-10-29
+176907,9838,Brooke Faulkner,Premium,cancelled,ITM003,Keyboard,457.36,942.7,2025-10-29
+149174,6586,Nicholas Mckenzie,Standard,new,ITM001,Laptop,67.89,67.89,2025-10-29
+149174,6586,Nicholas Mckenzie,Standard,new,ITM009,Desk Lamp,423.18,491.07,2025-10-29
+528089,5632,Justin Evans,Enterprise,pending,ITM005,Headphones,13.35,13.35,2025-10-29
+893782,2821,Carrie Garcia,Budget,other,ITM010,Phone Case,90.64,90.64,2025-10-29
+282523,2306,Christy Lee,Budget,pending,ITM005,Headphones,243.31,243.31,2025-10-29
+282523,2306,Christy Lee,Budget,pending,ITM015,SSD,257.96,501.27,2025-10-29
+761982,4639,Nicole Strickland,Enterprise,pending,ITM015,SSD,448.35,448.35,2025-10-29
+761982,4639,Nicole Strickland,Enterprise,pending,ITM006,Webcam,164.79,613.14,2025-10-29
+761982,4639,Nicole Strickland,Enterprise,pending,ITM009,Desk Lamp,124.27,737.41,2025-10-29
+971929,5410,Beverly Smith,Enterprise,shipped,ITM014,Hard Drive,162.47,162.47,2025-10-29
+971929,5410,Beverly Smith,Enterprise,shipped,ITM009,Desk Lamp,294.29,456.76,2025-10-29
+971929,5410,Beverly Smith,Enterprise,shipped,ITM006,Webcam,368.17,824.93,2025-10-29
+635171,3124,Sarah Wallace,Budget,pending,ITM008,Desk Chair,11.37,11.37,2025-10-29
+635171,3124,Sarah Wallace,Budget,pending,ITM005,Headphones,364.61,375.98,2025-10-29
+635171,3124,Sarah Wallace,Budget,pending,ITM004,Monitor,328.82,704.8,2025-10-29
+635171,3124,Sarah Wallace,Budget,pending,ITM011,Charger,463.47,1168.27,2025-10-29
+947601,2267,Joseph Sullivan,Enterprise,other,ITM009,Desk Lamp,425.85,425.85,2025-10-29
+947601,2267,Joseph Sullivan,Enterprise,other,ITM002,Mouse,271.2,697.05,2025-10-29
+947601,2267,Joseph Sullivan,Enterprise,other,ITM013,Router,94.3,791.35,2025-10-29
+149755,1471,Katherine Christian,Enterprise,new,ITM013,Router,195.8,195.8,2025-10-29
+149755,1471,Katherine Christian,Enterprise,new,ITM015,SSD,320.96,516.76,2025-10-29
+149755,1471,Katherine Christian,Enterprise,new,ITM007,USB Cable,292.91,809.67,2025-10-29
+329556,5591,Misty Villa,Standard,shipped,ITM011,Charger,117.87,117.87,2025-10-29
+329556,5591,Misty Villa,Standard,shipped,ITM003,Keyboard,177.44,295.31,2025-10-29
+329556,5591,Misty Villa,Standard,shipped,ITM007,USB Cable,17.06,312.37,2025-10-29
+329556,5591,Misty Villa,Standard,shipped,ITM012,Speaker,438.02,750.39,2025-10-29
+329556,5591,Misty Villa,Standard,shipped,ITM014,Hard Drive,19.06,769.45,2025-10-29
+356578,7082,Anna Morgan,Enterprise,other,ITM009,Desk Lamp,112.94,112.94,2025-10-29
+306837,2529,Melanie Adams,Standard,pending,ITM006,Webcam,161.67,161.67,2025-10-29
+306837,2529,Melanie Adams,Standard,pending,ITM003,Keyboard,234.01,395.68,2025-10-29
+306837,2529,Melanie Adams,Standard,pending,ITM008,Desk Chair,443.78,839.46,2025-10-29
+306837,2529,Melanie Adams,Standard,pending,ITM009,Desk Lamp,443.1,1282.56,2025-10-29
+306837,2529,Melanie Adams,Standard,pending,ITM013,Router,227.67,1510.23,2025-10-29
+344991,7815,Mark Zamora,Premium,new,ITM004,Monitor,138.7,138.7,2025-10-29
+344991,7815,Mark Zamora,Premium,new,ITM005,Headphones,403.71,542.41,2025-10-29
+426252,9745,Jocelyn May,Premium,other,ITM001,Laptop,369.39,369.39,2025-10-29
+426252,9745,Jocelyn May,Premium,other,ITM004,Monitor,433.57,802.96,2025-10-29
+426252,9745,Jocelyn May,Premium,other,ITM009,Desk Lamp,125.04,928.0,2025-10-29
+426252,9745,Jocelyn May,Premium,other,ITM013,Router,404.33,1332.33,2025-10-29
+753019,7312,Michael Sharp,Budget,pending,ITM005,Headphones,10.31,10.31,2025-10-29
+753019,7312,Michael Sharp,Budget,pending,ITM014,Hard Drive,93.11,103.42,2025-10-29
+753019,7312,Michael Sharp,Budget,pending,ITM012,Speaker,104.53,207.95,2025-10-29
+419262,4837,Dana Rodriguez,Enterprise,new,ITM005,Headphones,482.97,482.97,2025-10-29
+419262,4837,Dana Rodriguez,Enterprise,new,ITM007,USB Cable,164.96,647.93,2025-10-29
+892136,3444,Heather Thomas,Premium,other,ITM009,Desk Lamp,396.41,396.41,2025-10-29
+892136,3444,Heather Thomas,Premium,other,ITM005,Headphones,41.63,438.04,2025-10-29
+892136,3444,Heather Thomas,Premium,other,ITM006,Webcam,75.46,513.5,2025-10-29
+892136,3444,Heather Thomas,Premium,other,ITM008,Desk Chair,447.88,961.38,2025-10-29
+732260,3338,Sean Brown,Standard,pending,ITM012,Speaker,377.15,377.15,2025-10-29
+732260,3338,Sean Brown,Standard,pending,ITM006,Webcam,146.27,523.42,2025-10-29
+732260,3338,Sean Brown,Standard,pending,ITM010,Phone Case,326.24,849.66,2025-10-29
+316200,6004,Edgar Brown,Enterprise,cancelled,ITM005,Headphones,256.68,256.68,2025-10-29
+316200,6004,Edgar Brown,Enterprise,cancelled,ITM012,Speaker,131.72,388.4,2025-10-29
+316200,6004,Edgar Brown,Enterprise,cancelled,ITM006,Webcam,305.67,694.07,2025-10-29
+316200,6004,Edgar Brown,Enterprise,cancelled,ITM007,USB Cable,471.0,1165.07,2025-10-29
+316200,6004,Edgar Brown,Enterprise,cancelled,ITM011,Charger,399.62,1564.69,2025-10-29
+476362,7045,Andrew Lopez,Premium,pending,ITM002,Mouse,277.75,277.75,2025-10-29
+224973,3988,Mr. Stephen Ramirez MD,Enterprise,pending,ITM010,Phone Case,307.5,307.5,2025-10-29
+224973,3988,Mr. Stephen Ramirez MD,Enterprise,pending,ITM002,Mouse,403.93,711.43,2025-10-29
+224973,3988,Mr. Stephen Ramirez MD,Enterprise,pending,ITM004,Monitor,334.39,1045.82,2025-10-29
+224973,3988,Mr. Stephen Ramirez MD,Enterprise,pending,ITM003,Keyboard,376.84,1422.66,2025-10-29
+224973,3988,Mr. Stephen Ramirez MD,Enterprise,pending,ITM001,Laptop,254.1,1676.76,2025-10-29
+745378,9446,Amy Lozano,Standard,pending,ITM014,Hard Drive,387.37,387.37,2025-10-29
+745378,9446,Amy Lozano,Standard,pending,ITM009,Desk Lamp,419.03,806.4,2025-10-29
+745378,9446,Amy Lozano,Standard,pending,ITM013,Router,285.52,1091.92,2025-10-29
+745378,9446,Amy Lozano,Standard,pending,ITM005,Headphones,479.21,1571.13,2025-10-29
+507373,9198,Connie Smith,Standard,cancelled,ITM010,Phone Case,471.66,471.66,2025-10-29
+507373,9198,Connie Smith,Standard,cancelled,ITM007,USB Cable,301.6,773.26,2025-10-29
+507373,9198,Connie Smith,Standard,cancelled,ITM012,Speaker,243.28,1016.54,2025-10-29
+507373,9198,Connie Smith,Standard,cancelled,ITM005,Headphones,290.54,1307.08,2025-10-29
+939810,3315,Maureen Landry,Budget,new,ITM015,SSD,172.59,172.59,2025-10-29
+939810,3315,Maureen Landry,Budget,new,ITM008,Desk Chair,220.62,393.21,2025-10-29
+939810,3315,Maureen Landry,Budget,new,ITM014,Hard Drive,61.22,454.43,2025-10-29
+939810,3315,Maureen Landry,Budget,new,ITM004,Monitor,484.0,938.43,2025-10-29
+901002,6401,Joyce Stokes,Standard,shipped,ITM009,Desk Lamp,172.99,172.99,2025-10-29
+901002,6401,Joyce Stokes,Standard,shipped,ITM010,Phone Case,147.22,320.21,2025-10-29
+901002,6401,Joyce Stokes,Standard,shipped,ITM004,Monitor,268.24,588.45,2025-10-29
+901002,6401,Joyce Stokes,Standard,shipped,ITM005,Headphones,13.51,601.96,2025-10-29
+901002,6401,Joyce Stokes,Standard,shipped,ITM014,Hard Drive,334.76,936.72,2025-10-29
+153139,6163,Amy Ross,Standard,shipped,ITM014,Hard Drive,58.84,58.84,2025-10-29
+153139,6163,Amy Ross,Standard,shipped,ITM011,Charger,75.78,134.62,2025-10-29
+593864,7165,Darren Davis,Standard,cancelled,ITM008,Desk Chair,172.32,172.32,2025-10-29
+593864,7165,Darren Davis,Standard,cancelled,ITM009,Desk Lamp,117.89,290.21,2025-10-29
+593864,7165,Darren Davis,Standard,cancelled,ITM014,Hard Drive,312.38,602.59,2025-10-29
+593864,7165,Darren Davis,Standard,cancelled,ITM011,Charger,434.68,1037.27,2025-10-29
+584761,6933,Brittany Richardson,Premium,shipped,ITM009,Desk Lamp,463.54,463.54,2025-10-29
+584761,6933,Brittany Richardson,Premium,shipped,ITM015,SSD,367.18,830.72,2025-10-29
+379009,3645,Jennifer Nunez,Budget,new,ITM010,Phone Case,268.4,268.4,2025-10-29
+379009,3645,Jennifer Nunez,Budget,new,ITM011,Charger,30.01,298.41,2025-10-29
+379009,3645,Jennifer Nunez,Budget,new,ITM002,Mouse,275.18,573.59,2025-10-29
+528185,8427,Mark Lewis,Premium,new,ITM013,Router,301.85,301.85,2025-10-29
+528185,8427,Mark Lewis,Premium,new,ITM005,Headphones,393.24,695.09,2025-10-29
+528185,8427,Mark Lewis,Premium,new,ITM008,Desk Chair,435.32,1130.41,2025-10-29
+528185,8427,Mark Lewis,Premium,new,ITM012,Speaker,119.19,1249.6,2025-10-29
+361658,3323,Jordan Jennings,Standard,new,ITM007,USB Cable,396.28,396.28,2025-10-29
+361658,3323,Jordan Jennings,Standard,new,ITM010,Phone Case,86.65,482.93,2025-10-29
+361658,3323,Jordan Jennings,Standard,new,ITM005,Headphones,395.85,878.78,2025-10-29
+723327,7731,Kathryn Perry,Standard,pending,ITM008,Desk Chair,53.7,53.7,2025-10-29
+723327,7731,Kathryn Perry,Standard,pending,ITM014,Hard Drive,275.38,329.08,2025-10-29
+723327,7731,Kathryn Perry,Standard,pending,ITM005,Headphones,238.92,568.0,2025-10-29
+359404,4855,Dawn Lowery,Enterprise,pending,ITM002,Mouse,266.87,266.87,2025-10-29
+359404,4855,Dawn Lowery,Enterprise,pending,ITM004,Monitor,195.1,461.97,2025-10-29
+359404,4855,Dawn Lowery,Enterprise,pending,ITM001,Laptop,406.54,868.51,2025-10-29
+359404,4855,Dawn Lowery,Enterprise,pending,ITM012,Speaker,75.03,943.54,2025-10-29
+359404,4855,Dawn Lowery,Enterprise,pending,ITM003,Keyboard,60.46,1004.0,2025-10-29
+187207,6654,Joseph Henderson,Standard,pending,ITM012,Speaker,407.51,407.51,2025-10-29
+187207,6654,Joseph Henderson,Standard,pending,ITM015,SSD,84.37,491.88,2025-10-29
+187207,6654,Joseph Henderson,Standard,pending,ITM010,Phone Case,409.93,901.81,2025-10-29
+187207,6654,Joseph Henderson,Standard,pending,ITM007,USB Cable,333.59,1235.4,2025-10-29
+190208,2401,Gregory Elliott,Premium,pending,ITM010,Phone Case,25.09,25.09,2025-10-29
+190208,2401,Gregory Elliott,Premium,pending,ITM008,Desk Chair,464.83,489.92,2025-10-29
+531817,4055,Andrea Walsh,Standard,new,ITM010,Phone Case,420.46,420.46,2025-10-29
+531817,4055,Andrea Walsh,Standard,new,ITM012,Speaker,380.51,800.97,2025-10-29
+531817,4055,Andrea Walsh,Standard,new,ITM003,Keyboard,386.82,1187.79,2025-10-29
+531817,4055,Andrea Walsh,Standard,new,ITM007,USB Cable,123.72,1311.51,2025-10-29
+531817,4055,Andrea Walsh,Standard,new,ITM001,Laptop,71.86,1383.37,2025-10-29
+697650,1138,Pamela Mason,Budget,cancelled,ITM014,Hard Drive,390.89,390.89,2025-10-29
+697650,1138,Pamela Mason,Budget,cancelled,ITM012,Speaker,465.95,856.84,2025-10-29
+697650,1138,Pamela Mason,Budget,cancelled,ITM002,Mouse,283.58,1140.42,2025-10-29
+697650,1138,Pamela Mason,Budget,cancelled,ITM006,Webcam,37.37,1177.79,2025-10-29
+597370,6109,Michelle Bowers,Premium,other,ITM008,Desk Chair,472.44,472.44,2025-10-29
+597370,6109,Michelle Bowers,Premium,other,ITM014,Hard Drive,434.16,906.6,2025-10-29
+597370,6109,Michelle Bowers,Premium,other,ITM012,Speaker,390.29,1296.89,2025-10-29
+597370,6109,Michelle Bowers,Premium,other,ITM010,Phone Case,67.56,1364.45,2025-10-29
+496173,5469,Emily Lopez,Premium,other,ITM014,Hard Drive,455.54,455.54,2025-10-29
+496173,5469,Emily Lopez,Premium,other,ITM015,SSD,95.64,551.18,2025-10-29
+210537,9383,Kelly Wilson,Standard,other,ITM006,Webcam,269.2,269.2,2025-10-29
+210537,9383,Kelly Wilson,Standard,other,ITM010,Phone Case,393.34,662.54,2025-10-29
+642055,9417,Margaret Keller,Enterprise,other,ITM014,Hard Drive,254.24,254.24,2025-10-29
+642055,9417,Margaret Keller,Enterprise,other,ITM012,Speaker,279.18,533.42,2025-10-29
+642055,9417,Margaret Keller,Enterprise,other,ITM001,Laptop,80.75,614.17,2025-10-29
+642055,9417,Margaret Keller,Enterprise,other,ITM004,Monitor,421.51,1035.68,2025-10-29
+241749,1620,Luis Campos,Enterprise,cancelled,ITM007,USB Cable,191.56,191.56,2025-10-29
+241749,1620,Luis Campos,Enterprise,cancelled,ITM008,Desk Chair,466.1,657.66,2025-10-29
+527516,7103,Amanda Henry,Standard,other,ITM014,Hard Drive,352.96,352.96,2025-10-29
+527516,7103,Amanda Henry,Standard,other,ITM012,Speaker,365.06,718.02,2025-10-29
+727607,9057,George Nelson,Enterprise,shipped,ITM007,USB Cable,197.72,197.72,2025-10-29
+727607,9057,George Nelson,Enterprise,shipped,ITM015,SSD,399.37,597.09,2025-10-29
+727607,9057,George Nelson,Enterprise,shipped,ITM011,Charger,182.45,779.54,2025-10-29
+727607,9057,George Nelson,Enterprise,shipped,ITM012,Speaker,404.31,1183.85,2025-10-29
+312998,1836,Sandra Clements,Budget,new,ITM006,Webcam,183.47,183.47,2025-10-29
+312998,1836,Sandra Clements,Budget,new,ITM002,Mouse,53.23,236.7,2025-10-29
+312998,1836,Sandra Clements,Budget,new,ITM009,Desk Lamp,429.0,665.7,2025-10-29
+312998,1836,Sandra Clements,Budget,new,ITM013,Router,328.09,993.79,2025-10-29
+108686,2448,Daniel Dunn,Budget,cancelled,ITM002,Mouse,142.82,142.82,2025-10-29
+108686,2448,Daniel Dunn,Budget,cancelled,ITM008,Desk Chair,164.66,307.48,2025-10-29
+108686,2448,Daniel Dunn,Budget,cancelled,ITM001,Laptop,89.47,396.95,2025-10-29
+108686,2448,Daniel Dunn,Budget,cancelled,ITM006,Webcam,391.62,788.57,2025-10-29
+279034,2106,Lonnie Thomas,Budget,shipped,ITM006,Webcam,458.06,458.06,2025-10-29
+279034,2106,Lonnie Thomas,Budget,shipped,ITM011,Charger,371.83,829.89,2025-10-29
+279034,2106,Lonnie Thomas,Budget,shipped,ITM003,Keyboard,406.77,1236.66,2025-10-29
+279034,2106,Lonnie Thomas,Budget,shipped,ITM001,Laptop,202.07,1438.73,2025-10-29
+197424,4201,Edwin Mcknight,Budget,cancelled,ITM001,Laptop,132.44,132.44,2025-10-29
+197424,4201,Edwin Mcknight,Budget,cancelled,ITM002,Mouse,489.2,621.64,2025-10-29
+197424,4201,Edwin Mcknight,Budget,cancelled,ITM008,Desk Chair,441.59,1063.23,2025-10-29
+197424,4201,Edwin Mcknight,Budget,cancelled,ITM012,Speaker,335.57,1398.8,2025-10-29
+878437,3278,Nicholas Reyes,Budget,pending,ITM006,Webcam,186.03,186.03,2025-10-29
+878437,3278,Nicholas Reyes,Budget,pending,ITM015,SSD,264.05,450.08,2025-10-29
+878437,3278,Nicholas Reyes,Budget,pending,ITM011,Charger,476.45,926.53,2025-10-29
+622060,7646,Kelly Allen,Standard,pending,ITM005,Headphones,427.17,427.17,2025-10-29
+622060,7646,Kelly Allen,Standard,pending,ITM010,Phone Case,196.29,623.46,2025-10-29
+622060,7646,Kelly Allen,Standard,pending,ITM009,Desk Lamp,46.49,669.95,2025-10-29
+622060,7646,Kelly Allen,Standard,pending,ITM011,Charger,433.05,1103.0,2025-10-29
+198967,3788,Stephanie Rose,Standard,cancelled,ITM013,Router,418.4,418.4,2025-10-29
+198967,3788,Stephanie Rose,Standard,cancelled,ITM004,Monitor,31.41,449.81,2025-10-29
+198967,3788,Stephanie Rose,Standard,cancelled,ITM007,USB Cable,224.94,674.75,2025-10-29
+887586,7802,Julie Wilson,Premium,shipped,ITM012,Speaker,486.81,486.81,2025-10-29
+887586,7802,Julie Wilson,Premium,shipped,ITM005,Headphones,171.83,658.64,2025-10-29
+887586,7802,Julie Wilson,Premium,shipped,ITM004,Monitor,118.55,777.19,2025-10-29
+351205,3967,Ronnie Bailey,Budget,pending,ITM005,Headphones,405.27,405.27,2025-10-29
+468538,2527,Michael Russell,Premium,cancelled,ITM014,Hard Drive,59.58,59.58,2025-10-29
+468538,2527,Michael Russell,Premium,cancelled,ITM007,USB Cable,276.66,336.24,2025-10-29
+468538,2527,Michael Russell,Premium,cancelled,ITM015,SSD,357.55,693.79,2025-10-29
+468538,2527,Michael Russell,Premium,cancelled,ITM006,Webcam,296.62,990.41,2025-10-29
+601615,8068,Scott Robinson,Enterprise,shipped,ITM006,Webcam,402.25,402.25,2025-10-29
+358454,7891,Kevin Allen,Enterprise,pending,ITM001,Laptop,425.88,425.88,2025-10-29
+358454,7891,Kevin Allen,Enterprise,pending,ITM012,Speaker,65.24,491.12,2025-10-29
+358454,7891,Kevin Allen,Enterprise,pending,ITM010,Phone Case,442.11,933.23,2025-10-29
+358454,7891,Kevin Allen,Enterprise,pending,ITM009,Desk Lamp,217.55,1150.78,2025-10-29
+748566,2016,Elizabeth Brennan,Budget,pending,ITM014,Hard Drive,349.73,349.73,2025-10-29
+225405,5239,Tonya Donovan,Enterprise,other,ITM010,Phone Case,325.66,325.66,2025-10-29
+225405,5239,Tonya Donovan,Enterprise,other,ITM002,Mouse,181.96,507.62,2025-10-29
+225405,5239,Tonya Donovan,Enterprise,other,ITM015,SSD,164.06,671.68,2025-10-29
+225405,5239,Tonya Donovan,Enterprise,other,ITM001,Laptop,428.36,1100.04,2025-10-29
+753234,8369,Adam Ward,Budget,pending,ITM007,USB Cable,370.0,370.0,2025-10-29
+753234,8369,Adam Ward,Budget,pending,ITM003,Keyboard,70.67,440.67,2025-10-29
+753234,8369,Adam Ward,Budget,pending,ITM011,Charger,124.16,564.83,2025-10-29
+753234,8369,Adam Ward,Budget,pending,ITM005,Headphones,496.7,1061.53,2025-10-29
+484636,3321,Joseph Ramsey,Budget,shipped,ITM002,Mouse,77.62,77.62,2025-10-29
+484636,3321,Joseph Ramsey,Budget,shipped,ITM006,Webcam,97.78,175.4,2025-10-29
+484636,3321,Joseph Ramsey,Budget,shipped,ITM015,SSD,181.18,356.58,2025-10-29
+205919,8848,Kristine King,Enterprise,cancelled,ITM006,Webcam,194.94,194.94,2025-10-29
+205919,8848,Kristine King,Enterprise,cancelled,ITM002,Mouse,316.48,511.42,2025-10-29
+205919,8848,Kristine King,Enterprise,cancelled,ITM007,USB Cable,385.67,897.09,2025-10-29
+205919,8848,Kristine King,Enterprise,cancelled,ITM011,Charger,245.63,1142.72,2025-10-29
+205919,8848,Kristine King,Enterprise,cancelled,ITM003,Keyboard,395.4,1538.12,2025-10-29
+674469,9734,Kathleen Salazar,Premium,shipped,ITM012,Speaker,146.2,146.2,2025-10-29
+674469,9734,Kathleen Salazar,Premium,shipped,ITM001,Laptop,347.04,493.24,2025-10-29
+674469,9734,Kathleen Salazar,Premium,shipped,ITM007,USB Cable,225.87,719.11,2025-10-29
+607225,2759,Heather Lawson,Enterprise,shipped,ITM014,Hard Drive,389.82,389.82,2025-10-29
+607225,2759,Heather Lawson,Enterprise,shipped,ITM012,Speaker,179.87,569.69,2025-10-29
+607225,2759,Heather Lawson,Enterprise,shipped,ITM013,Router,212.99,782.68,2025-10-29
+607225,2759,Heather Lawson,Enterprise,shipped,ITM009,Desk Lamp,354.51,1137.19,2025-10-29
+193315,6355,Thomas Chavez,Budget,pending,ITM014,Hard Drive,414.89,414.89,2025-10-29
+193315,6355,Thomas Chavez,Budget,pending,ITM010,Phone Case,466.92,881.81,2025-10-29
+193315,6355,Thomas Chavez,Budget,pending,ITM013,Router,130.86,1012.67,2025-10-29
+663369,7665,Ashley Baker,Premium,pending,ITM007,USB Cable,106.77,106.77,2025-10-29
+663369,7665,Ashley Baker,Premium,pending,ITM006,Webcam,101.91,208.68,2025-10-29
+330342,5406,Kathryn Avery,Enterprise,pending,ITM007,USB Cable,121.19,121.19,2025-10-29
+330342,5406,Kathryn Avery,Enterprise,pending,ITM013,Router,230.18,351.37,2025-10-29
+330342,5406,Kathryn Avery,Enterprise,pending,ITM009,Desk Lamp,357.73,709.1,2025-10-29
+330342,5406,Kathryn Avery,Enterprise,pending,ITM001,Laptop,263.08,972.18,2025-10-29
+341811,5485,Jennifer Reynolds,Standard,other,ITM008,Desk Chair,249.21,249.21,2025-10-29
+341811,5485,Jennifer Reynolds,Standard,other,ITM001,Laptop,167.78,416.99,2025-10-29
+341811,5485,Jennifer Reynolds,Standard,other,ITM010,Phone Case,299.0,715.99,2025-10-29
+341811,5485,Jennifer Reynolds,Standard,other,ITM012,Speaker,12.63,728.62,2025-10-29
+986983,7804,Joseph Hoffman,Premium,pending,ITM014,Hard Drive,116.29,116.29,2025-10-29
+986983,7804,Joseph Hoffman,Premium,pending,ITM015,SSD,286.23,402.52,2025-10-29
+986983,7804,Joseph Hoffman,Premium,pending,ITM005,Headphones,296.77,699.29,2025-10-29
+222192,1351,Derek Evans,Premium,shipped,ITM015,SSD,227.95,227.95,2025-10-29
+298928,6456,Cynthia Jennings,Enterprise,pending,ITM013,Router,206.08,206.08,2025-10-29
+298928,6456,Cynthia Jennings,Enterprise,pending,ITM002,Mouse,119.1,325.18,2025-10-29
+298928,6456,Cynthia Jennings,Enterprise,pending,ITM008,Desk Chair,180.72,505.9,2025-10-29
+298928,6456,Cynthia Jennings,Enterprise,pending,ITM009,Desk Lamp,191.93,697.83,2025-10-29
+836911,9814,Sandra Lynn,Enterprise,new,ITM007,USB Cable,101.75,101.75,2025-10-29
+952734,4840,Annette Skinner,Standard,other,ITM010,Phone Case,22.28,22.28,2025-10-29
+551462,5706,Russell Ramirez,Budget,new,ITM009,Desk Lamp,86.49,86.49,2025-10-29
+816470,7806,Julia Allen,Premium,pending,ITM010,Phone Case,340.32,340.32,2025-10-29
+816470,7806,Julia Allen,Premium,pending,ITM001,Laptop,122.85,463.17,2025-10-29
+816470,7806,Julia Allen,Premium,pending,ITM002,Mouse,125.81,588.98,2025-10-29
+816470,7806,Julia Allen,Premium,pending,ITM005,Headphones,438.36,1027.34,2025-10-29
+724329,8680,Scott Wagner,Standard,pending,ITM015,SSD,264.33,264.33,2025-10-29
+724329,8680,Scott Wagner,Standard,pending,ITM003,Keyboard,107.31,371.64,2025-10-29
+724329,8680,Scott Wagner,Standard,pending,ITM012,Speaker,430.7,802.34,2025-10-29
+724329,8680,Scott Wagner,Standard,pending,ITM013,Router,15.96,818.3,2025-10-29
+471243,2226,Pam Smith,Enterprise,new,ITM002,Mouse,339.72,339.72,2025-10-29
+471243,2226,Pam Smith,Enterprise,new,ITM006,Webcam,10.36,350.08,2025-10-29
+471243,2226,Pam Smith,Enterprise,new,ITM004,Monitor,277.45,627.53,2025-10-29
+372400,9333,Patrick Gibbs,Budget,pending,ITM003,Keyboard,490.26,490.26,2025-10-29
+989590,9985,Shannon Fuller,Premium,other,ITM001,Laptop,34.39,34.39,2025-10-29
+989590,9985,Shannon Fuller,Premium,other,ITM010,Phone Case,159.02,193.41,2025-10-29
+389622,2496,Andrea Goodman,Standard,cancelled,ITM001,Laptop,349.83,349.83,2025-10-29
+389622,2496,Andrea Goodman,Standard,cancelled,ITM004,Monitor,33.83,383.66,2025-10-29
+389622,2496,Andrea Goodman,Standard,cancelled,ITM002,Mouse,295.74,679.4,2025-10-29
+389622,2496,Andrea Goodman,Standard,cancelled,ITM011,Charger,452.69,1132.09,2025-10-29
+389622,2496,Andrea Goodman,Standard,cancelled,ITM009,Desk Lamp,206.21,1338.3,2025-10-29
+213518,4304,Michelle Morales,Premium,shipped,ITM012,Speaker,258.95,258.95,2025-10-29
+213518,4304,Michelle Morales,Premium,shipped,ITM007,USB Cable,11.69,270.64,2025-10-29
+422230,8514,William Parker II,Premium,pending,ITM005,Headphones,16.79,16.79,2025-10-29
+422230,8514,William Parker II,Premium,pending,ITM004,Monitor,392.68,409.47,2025-10-29
+422230,8514,William Parker II,Premium,pending,ITM003,Keyboard,160.62,570.09,2025-10-29
+422230,8514,William Parker II,Premium,pending,ITM009,Desk Lamp,415.27,985.36,2025-10-29
+422230,8514,William Parker II,Premium,pending,ITM012,Speaker,444.55,1429.91,2025-10-29
+934789,3886,Robert Humphrey,Premium,other,ITM001,Laptop,118.09,118.09,2025-10-29
+934789,3886,Robert Humphrey,Premium,other,ITM011,Charger,432.31,550.4,2025-10-29
+934789,3886,Robert Humphrey,Premium,other,ITM008,Desk Chair,361.0,911.4,2025-10-29
+704669,6790,Laura Davis,Premium,other,ITM008,Desk Chair,236.23,236.23,2025-10-29
+607372,5851,Gregory Jackson,Premium,new,ITM003,Keyboard,59.72,59.72,2025-10-29
+607372,5851,Gregory Jackson,Premium,new,ITM010,Phone Case,480.48,540.2,2025-10-29
+607372,5851,Gregory Jackson,Premium,new,ITM005,Headphones,404.07,944.27,2025-10-29
+607372,5851,Gregory Jackson,Premium,new,ITM004,Monitor,426.41,1370.68,2025-10-29
+607372,5851,Gregory Jackson,Premium,new,ITM009,Desk Lamp,308.77,1679.45,2025-10-29
+802675,7301,Sarah Smith,Premium,pending,ITM004,Monitor,275.12,275.12,2025-10-29
+802675,7301,Sarah Smith,Premium,pending,ITM015,SSD,319.27,594.39,2025-10-29
+932360,4933,Brian Gonzalez,Standard,cancelled,ITM003,Keyboard,425.74,425.74,2025-10-29
+932360,4933,Brian Gonzalez,Standard,cancelled,ITM008,Desk Chair,317.9,743.64,2025-10-29
+932360,4933,Brian Gonzalez,Standard,cancelled,ITM011,Charger,78.25,821.89,2025-10-29
+932360,4933,Brian Gonzalez,Standard,cancelled,ITM002,Mouse,235.54,1057.43,2025-10-29
+464824,5153,Brandon Rodriguez,Enterprise,cancelled,ITM003,Keyboard,229.13,229.13,2025-10-29
+464824,5153,Brandon Rodriguez,Enterprise,cancelled,ITM011,Charger,326.08,555.21,2025-10-29
+464824,5153,Brandon Rodriguez,Enterprise,cancelled,ITM001,Laptop,425.1,980.31,2025-10-29
+870566,2650,Susan Weaver,Standard,shipped,ITM008,Desk Chair,242.44,242.44,2025-10-29
+672326,9934,Timothy Henson,Premium,other,ITM006,Webcam,301.05,301.05,2025-10-29
+672326,9934,Timothy Henson,Premium,other,ITM004,Monitor,86.66,387.71,2025-10-29
+672326,9934,Timothy Henson,Premium,other,ITM015,SSD,490.56,878.27,2025-10-29
+672326,9934,Timothy Henson,Premium,other,ITM014,Hard Drive,215.23,1093.5,2025-10-29
+710948,7234,William Campbell,Budget,pending,ITM015,SSD,157.98,157.98,2025-10-29
+710948,7234,William Campbell,Budget,pending,ITM004,Monitor,55.49,213.47,2025-10-29
+710948,7234,William Campbell,Budget,pending,ITM001,Laptop,163.02,376.49,2025-10-29
+710948,7234,William Campbell,Budget,pending,ITM005,Headphones,226.75,603.24,2025-10-29
+958985,4070,Jennifer Valdez,Enterprise,cancelled,ITM005,Headphones,322.77,322.77,2025-10-29
+958985,4070,Jennifer Valdez,Enterprise,cancelled,ITM002,Mouse,36.45,359.22,2025-10-29
+958985,4070,Jennifer Valdez,Enterprise,cancelled,ITM004,Monitor,41.83,401.05,2025-10-29
+958985,4070,Jennifer Valdez,Enterprise,cancelled,ITM010,Phone Case,330.5,731.55,2025-10-29
+958985,4070,Jennifer Valdez,Enterprise,cancelled,ITM014,Hard Drive,419.23,1150.78,2025-10-29
+496138,4735,Misty Flores,Premium,cancelled,ITM003,Keyboard,117.32,117.32,2025-10-29
+496138,4735,Misty Flores,Premium,cancelled,ITM006,Webcam,268.13,385.45,2025-10-29
+496138,4735,Misty Flores,Premium,cancelled,ITM009,Desk Lamp,84.43,469.88,2025-10-29
+496138,4735,Misty Flores,Premium,cancelled,ITM014,Hard Drive,78.42,548.3,2025-10-29
+686420,3343,Heather Cox,Premium,cancelled,ITM008,Desk Chair,111.97,111.97,2025-10-29
+686420,3343,Heather Cox,Premium,cancelled,ITM015,SSD,421.8,533.77,2025-10-29
+205486,8644,Dr. Lisa Ward,Enterprise,cancelled,ITM003,Keyboard,298.08,298.08,2025-10-29
+173254,7289,Valerie Potter,Budget,other,ITM004,Monitor,475.37,475.37,2025-10-29
+173254,7289,Valerie Potter,Budget,other,ITM009,Desk Lamp,80.91,556.28,2025-10-29
+173254,7289,Valerie Potter,Budget,other,ITM011,Charger,451.2,1007.48,2025-10-29
+173254,7289,Valerie Potter,Budget,other,ITM006,Webcam,439.9,1447.38,2025-10-29
+173254,7289,Valerie Potter,Budget,other,ITM001,Laptop,215.16,1662.54,2025-10-29
+804428,7679,John Ramirez,Budget,shipped,ITM002,Mouse,263.5,263.5,2025-10-29
+804428,7679,John Ramirez,Budget,shipped,ITM001,Laptop,278.49,541.99,2025-10-29
+804428,7679,John Ramirez,Budget,shipped,ITM003,Keyboard,275.91,817.9,2025-10-29
+804428,7679,John Ramirez,Budget,shipped,ITM006,Webcam,10.51,828.41,2025-10-29
+804428,7679,John Ramirez,Budget,shipped,ITM007,USB Cable,35.91,864.32,2025-10-29
+866380,1971,Matthew Young,Enterprise,pending,ITM001,Laptop,302.35,302.35,2025-10-29
+866380,1971,Matthew Young,Enterprise,pending,ITM005,Headphones,315.81,618.16,2025-10-29
+757885,8089,Perry Smith,Budget,new,ITM007,USB Cable,278.17,278.17,2025-10-29
+994801,2047,Evan Wood,Budget,new,ITM004,Monitor,438.64,438.64,2025-10-29
+994801,2047,Evan Wood,Budget,new,ITM010,Phone Case,417.91,856.55,2025-10-29
+531897,9256,Kim Olsen,Premium,pending,ITM002,Mouse,382.74,382.74,2025-10-29
+748121,2803,Kenneth Torres,Enterprise,shipped,ITM011,Charger,314.93,314.93,2025-10-29
+748121,2803,Kenneth Torres,Enterprise,shipped,ITM013,Router,273.61,588.54,2025-10-29
+748121,2803,Kenneth Torres,Enterprise,shipped,ITM003,Keyboard,123.83,712.37,2025-10-29
+748121,2803,Kenneth Torres,Enterprise,shipped,ITM001,Laptop,26.75,739.12,2025-10-29
+474227,5488,Sarah Lopez,Enterprise,new,ITM011,Charger,188.86,188.86,2025-10-29
+474227,5488,Sarah Lopez,Enterprise,new,ITM014,Hard Drive,32.54,221.4,2025-10-29
+332271,1205,Eddie Campos,Enterprise,new,ITM010,Phone Case,98.94,98.94,2025-10-29
+332271,1205,Eddie Campos,Enterprise,new,ITM011,Charger,366.3,465.24,2025-10-29
+332271,1205,Eddie Campos,Enterprise,new,ITM009,Desk Lamp,460.03,925.27,2025-10-29
+332271,1205,Eddie Campos,Enterprise,new,ITM005,Headphones,242.72,1167.99,2025-10-29
+132777,3855,Stephanie Griffin,Standard,new,ITM003,Keyboard,392.36,392.36,2025-10-29
+768672,4993,Jane Ward,Standard,other,ITM005,Headphones,404.57,404.57,2025-10-29
+768672,4993,Jane Ward,Standard,other,ITM007,USB Cable,417.28,821.85,2025-10-29
+768672,4993,Jane Ward,Standard,other,ITM015,SSD,217.73,1039.58,2025-10-29
+768672,4993,Jane Ward,Standard,other,ITM010,Phone Case,439.64,1479.22,2025-10-29
+768672,4993,Jane Ward,Standard,other,ITM012,Speaker,496.47,1975.69,2025-10-29
+156847,9175,Sydney Bartlett,Premium,shipped,ITM015,SSD,332.96,332.96,2025-10-29
+669784,6590,Matthew Hunt,Budget,pending,ITM001,Laptop,13.22,13.22,2025-10-29
+669784,6590,Matthew Hunt,Budget,pending,ITM006,Webcam,418.24,431.46,2025-10-29
+669784,6590,Matthew Hunt,Budget,pending,ITM015,SSD,29.19,460.65,2025-10-29
+669784,6590,Matthew Hunt,Budget,pending,ITM011,Charger,335.07,795.72,2025-10-29
+669784,6590,Matthew Hunt,Budget,pending,ITM008,Desk Chair,151.51,947.23,2025-10-29
+682811,5922,Cheryl Lawrence,Budget,other,ITM009,Desk Lamp,77.22,77.22,2025-10-29
+682811,5922,Cheryl Lawrence,Budget,other,ITM011,Charger,41.62,118.84,2025-10-29
+568670,5235,Lindsay Mclaughlin,Standard,pending,ITM001,Laptop,63.18,63.18,2025-10-29
+568670,5235,Lindsay Mclaughlin,Standard,pending,ITM011,Charger,442.94,506.12,2025-10-29
+568670,5235,Lindsay Mclaughlin,Standard,pending,ITM007,USB Cable,46.03,552.15,2025-10-29
+568670,5235,Lindsay Mclaughlin,Standard,pending,ITM005,Headphones,391.56,943.71,2025-10-29
+650149,8440,Shawn Shelton,Budget,new,ITM011,Charger,414.97,414.97,2025-10-29
+330173,4321,Cassandra Hubbard,Premium,shipped,ITM011,Charger,444.87,444.87,2025-10-29
+330173,4321,Cassandra Hubbard,Premium,shipped,ITM010,Phone Case,370.83,815.7,2025-10-29
+330173,4321,Cassandra Hubbard,Premium,shipped,ITM014,Hard Drive,450.67,1266.37,2025-10-29
+330173,4321,Cassandra Hubbard,Premium,shipped,ITM015,SSD,328.94,1595.31,2025-10-29
+562882,2069,Christopher Nunez,Premium,pending,ITM007,USB Cable,351.17,351.17,2025-10-29
+130590,8527,Linda Greene,Premium,cancelled,ITM008,Desk Chair,349.33,349.33,2025-10-29
+130590,8527,Linda Greene,Premium,cancelled,ITM004,Monitor,142.82,492.15,2025-10-29
+143815,1455,Angela Logan,Budget,cancelled,ITM009,Desk Lamp,43.4,43.4,2025-10-29
+519756,5237,Matthew Fitzgerald,Premium,shipped,ITM011,Charger,464.62,464.62,2025-10-29
+519756,5237,Matthew Fitzgerald,Premium,shipped,ITM006,Webcam,21.44,486.06,2025-10-29
+793459,1545,Alyssa Hanna,Budget,shipped,ITM007,USB Cable,488.94,488.94,2025-10-29
+793459,1545,Alyssa Hanna,Budget,shipped,ITM002,Mouse,101.02,589.96,2025-10-29
+793459,1545,Alyssa Hanna,Budget,shipped,ITM008,Desk Chair,278.64,868.6,2025-10-29
+793459,1545,Alyssa Hanna,Budget,shipped,ITM015,SSD,10.48,879.08,2025-10-29
+703460,8642,Michael Nunez,Budget,shipped,ITM012,Speaker,290.26,290.26,2025-10-29
+703460,8642,Michael Nunez,Budget,shipped,ITM010,Phone Case,270.04,560.3,2025-10-29
+178249,9502,Erica Maldonado,Standard,pending,ITM007,USB Cable,167.52,167.52,2025-10-29
+552735,5287,Ruben Gillespie,Enterprise,other,ITM006,Webcam,410.88,410.88,2025-10-29
+552735,5287,Ruben Gillespie,Enterprise,other,ITM003,Keyboard,256.8,667.68,2025-10-29
+683063,5168,Eric Wagner,Standard,shipped,ITM007,USB Cable,280.55,280.55,2025-10-29
+683063,5168,Eric Wagner,Standard,shipped,ITM014,Hard Drive,274.95,555.5,2025-10-29
+683063,5168,Eric Wagner,Standard,shipped,ITM011,Charger,239.27,794.77,2025-10-29
+683063,5168,Eric Wagner,Standard,shipped,ITM013,Router,246.65,1041.42,2025-10-29
+683063,5168,Eric Wagner,Standard,shipped,ITM004,Monitor,56.2,1097.62,2025-10-29
+268186,5272,Nicholas Montes,Enterprise,new,ITM008,Desk Chair,266.55,266.55,2025-10-29
+268186,5272,Nicholas Montes,Enterprise,new,ITM007,USB Cable,473.03,739.58,2025-10-29
+268186,5272,Nicholas Montes,Enterprise,new,ITM015,SSD,337.81,1077.39,2025-10-29
+268186,5272,Nicholas Montes,Enterprise,new,ITM014,Hard Drive,385.39,1462.78,2025-10-29
+140908,8589,Dr. Susan Yates,Enterprise,shipped,ITM012,Speaker,85.63,85.63,2025-10-29
+140908,8589,Dr. Susan Yates,Enterprise,shipped,ITM001,Laptop,489.16,574.79,2025-10-29
+140908,8589,Dr. Susan Yates,Enterprise,shipped,ITM006,Webcam,465.75,1040.54,2025-10-29
+143447,1119,John Jacobs,Enterprise,shipped,ITM011,Charger,298.94,298.94,2025-10-29
+143447,1119,John Jacobs,Enterprise,shipped,ITM009,Desk Lamp,130.19,429.13,2025-10-29
+143447,1119,John Jacobs,Enterprise,shipped,ITM005,Headphones,277.63,706.76,2025-10-29
+143447,1119,John Jacobs,Enterprise,shipped,ITM015,SSD,289.24,996.0,2025-10-29
+143447,1119,John Jacobs,Enterprise,shipped,ITM010,Phone Case,236.42,1232.42,2025-10-29
+951399,8794,Rose Dean,Premium,cancelled,ITM007,USB Cable,337.36,337.36,2025-10-29
+951399,8794,Rose Dean,Premium,cancelled,ITM002,Mouse,127.56,464.92,2025-10-29
+951399,8794,Rose Dean,Premium,cancelled,ITM001,Laptop,283.1,748.02,2025-10-29
+819279,3537,Jay Hayes,Enterprise,shipped,ITM012,Speaker,19.06,19.06,2025-10-29
+627205,9026,Nicole Miller,Budget,shipped,ITM013,Router,403.64,403.64,2025-10-29
+627205,9026,Nicole Miller,Budget,shipped,ITM001,Laptop,276.71,680.35,2025-10-29
+627205,9026,Nicole Miller,Budget,shipped,ITM005,Headphones,421.45,1101.8,2025-10-29
+626721,9149,Leslie Wright,Enterprise,other,ITM011,Charger,124.19,124.19,2025-10-29
+626721,9149,Leslie Wright,Enterprise,other,ITM006,Webcam,337.55,461.74,2025-10-29
+626721,9149,Leslie Wright,Enterprise,other,ITM010,Phone Case,372.83,834.57,2025-10-29
+709209,2641,Linda Brown,Enterprise,other,ITM010,Phone Case,131.78,131.78,2025-10-29
+709209,2641,Linda Brown,Enterprise,other,ITM013,Router,412.74,544.52,2025-10-29
+709209,2641,Linda Brown,Enterprise,other,ITM004,Monitor,36.66,581.18,2025-10-29
+709209,2641,Linda Brown,Enterprise,other,ITM001,Laptop,322.7,903.88,2025-10-29
+709209,2641,Linda Brown,Enterprise,other,ITM008,Desk Chair,42.52,946.4,2025-10-29
+464423,4191,Jason Holt,Standard,shipped,ITM013,Router,160.71,160.71,2025-10-29
+464423,4191,Jason Holt,Standard,shipped,ITM009,Desk Lamp,392.96,553.67,2025-10-29
+704780,2440,Mr. Ralph Gibson,Standard,new,ITM004,Monitor,164.11,164.11,2025-10-29
+704780,2440,Mr. Ralph Gibson,Standard,new,ITM015,SSD,471.96,636.07,2025-10-29
+704780,2440,Mr. Ralph Gibson,Standard,new,ITM005,Headphones,453.53,1089.6,2025-10-29
+272017,8885,Jessica Williams,Budget,shipped,ITM006,Webcam,38.27,38.27,2025-10-29
+272017,8885,Jessica Williams,Budget,shipped,ITM003,Keyboard,120.08,158.35,2025-10-29
+272017,8885,Jessica Williams,Budget,shipped,ITM015,SSD,285.1,443.45,2025-10-29
+272017,8885,Jessica Williams,Budget,shipped,ITM010,Phone Case,297.96,741.41,2025-10-29
+272017,8885,Jessica Williams,Budget,shipped,ITM005,Headphones,144.92,886.33,2025-10-29
+618660,8214,Joseph Hester,Budget,other,ITM006,Webcam,411.75,411.75,2025-10-29
+100074,1135,Kathleen Lewis,Standard,cancelled,ITM010,Phone Case,89.66,89.66,2025-10-29
+100074,1135,Kathleen Lewis,Standard,cancelled,ITM007,USB Cable,311.71,401.37,2025-10-29
+100074,1135,Kathleen Lewis,Standard,cancelled,ITM004,Monitor,207.5,608.87,2025-10-29
+100074,1135,Kathleen Lewis,Standard,cancelled,ITM012,Speaker,337.42,946.29,2025-10-29
+100074,1135,Kathleen Lewis,Standard,cancelled,ITM013,Router,452.89,1399.18,2025-10-29
+991568,2623,Joshua Buchanan,Budget,other,ITM012,Speaker,49.17,49.17,2025-10-29
+991568,2623,Joshua Buchanan,Budget,other,ITM004,Monitor,304.3,353.47,2025-10-29
+769113,3638,Brandon Taylor,Enterprise,pending,ITM009,Desk Lamp,335.16,335.16,2025-10-29
+769113,3638,Brandon Taylor,Enterprise,pending,ITM004,Monitor,183.21,518.37,2025-10-29
+769113,3638,Brandon Taylor,Enterprise,pending,ITM015,SSD,473.39,991.76,2025-10-29
+769113,3638,Brandon Taylor,Enterprise,pending,ITM012,Speaker,32.11,1023.87,2025-10-29
+225361,8437,Shannon Wilson,Standard,cancelled,ITM014,Hard Drive,358.03,358.03,2025-10-29
+225361,8437,Shannon Wilson,Standard,cancelled,ITM007,USB Cable,333.52,691.55,2025-10-29
+322598,4355,Mark Mathews,Standard,new,ITM013,Router,313.81,313.81,2025-10-29
+462178,2463,Ricky Delgado,Enterprise,cancelled,ITM009,Desk Lamp,335.6,335.6,2025-10-29
+462178,2463,Ricky Delgado,Enterprise,cancelled,ITM012,Speaker,375.57,711.17,2025-10-29
+462178,2463,Ricky Delgado,Enterprise,cancelled,ITM014,Hard Drive,53.07,764.24,2025-10-29
+462178,2463,Ricky Delgado,Enterprise,cancelled,ITM005,Headphones,486.88,1251.12,2025-10-29
+672894,3833,Holly Larsen,Budget,pending,ITM013,Router,476.28,476.28,2025-10-29
+672894,3833,Holly Larsen,Budget,pending,ITM011,Charger,437.14,913.42,2025-10-29
+672894,3833,Holly Larsen,Budget,pending,ITM014,Hard Drive,353.97,1267.39,2025-10-29
+321447,8925,Charles Jones,Standard,other,ITM011,Charger,253.13,253.13,2025-10-29
+321447,8925,Charles Jones,Standard,other,ITM008,Desk Chair,269.07,522.2,2025-10-29
+889596,7306,Chelsea Miller,Enterprise,new,ITM006,Webcam,298.86,298.86,2025-10-29
+889596,7306,Chelsea Miller,Enterprise,new,ITM002,Mouse,258.6,557.46,2025-10-29
+410733,6926,Heather Walker,Standard,cancelled,ITM008,Desk Chair,337.15,337.15,2025-10-29
+410733,6926,Heather Walker,Standard,cancelled,ITM013,Router,284.23,621.38,2025-10-29
+410733,6926,Heather Walker,Standard,cancelled,ITM012,Speaker,78.88,700.26,2025-10-29
+410733,6926,Heather Walker,Standard,cancelled,ITM009,Desk Lamp,399.12,1099.38,2025-10-29
+283587,7632,Erin Graham,Budget,pending,ITM001,Laptop,303.04,303.04,2025-10-29
+395444,2436,Adam Williams,Enterprise,pending,ITM014,Hard Drive,105.55,105.55,2025-10-29
+395444,2436,Adam Williams,Enterprise,pending,ITM005,Headphones,118.7,224.25,2025-10-29
+610230,8431,Ashley Hughes,Budget,other,ITM015,SSD,439.2,439.2,2025-10-29
+610230,8431,Ashley Hughes,Budget,other,ITM003,Keyboard,491.96,931.16,2025-10-29
+969571,4715,Ricardo Smith,Budget,other,ITM013,Router,277.75,277.75,2025-10-29
+969571,4715,Ricardo Smith,Budget,other,ITM003,Keyboard,262.24,539.99,2025-10-29
+969571,4715,Ricardo Smith,Budget,other,ITM002,Mouse,24.5,564.49,2025-10-29
+969571,4715,Ricardo Smith,Budget,other,ITM006,Webcam,60.14,624.63,2025-10-29
+969571,4715,Ricardo Smith,Budget,other,ITM001,Laptop,55.52,680.15,2025-10-29
+600664,7649,Brenda Gardner,Budget,new,ITM009,Desk Lamp,71.7,71.7,2025-10-29
+600664,7649,Brenda Gardner,Budget,new,ITM002,Mouse,31.74,103.44,2025-10-29
+336846,4990,Adam Fisher,Standard,new,ITM014,Hard Drive,194.39,194.39,2025-10-29
+119896,1133,Sharon Clayton MD,Enterprise,new,ITM011,Charger,371.65,371.65,2025-10-29
+956313,3872,Brandi Leach,Standard,cancelled,ITM006,Webcam,201.9,201.9,2025-10-29
+956313,3872,Brandi Leach,Standard,cancelled,ITM011,Charger,169.84,371.74,2025-10-29
+956313,3872,Brandi Leach,Standard,cancelled,ITM004,Monitor,108.71,480.45,2025-10-29
+956313,3872,Brandi Leach,Standard,cancelled,ITM012,Speaker,498.99,979.44,2025-10-29
+233052,6847,Margaret Wilson,Enterprise,cancelled,ITM014,Hard Drive,350.03,350.03,2025-10-29
+233052,6847,Margaret Wilson,Enterprise,cancelled,ITM008,Desk Chair,410.37,760.4,2025-10-29
+233052,6847,Margaret Wilson,Enterprise,cancelled,ITM002,Mouse,462.95,1223.35,2025-10-29
+206620,3075,Leonard Wiley,Standard,new,ITM009,Desk Lamp,446.93,446.93,2025-10-29
+206620,3075,Leonard Wiley,Standard,new,ITM015,SSD,372.96,819.89,2025-10-29
+447515,8736,Amy Mcclain,Enterprise,pending,ITM004,Monitor,24.42,24.42,2025-10-29
+447515,8736,Amy Mcclain,Enterprise,pending,ITM012,Speaker,290.69,315.11,2025-10-29
+447515,8736,Amy Mcclain,Enterprise,pending,ITM003,Keyboard,108.5,423.61,2025-10-29
+447515,8736,Amy Mcclain,Enterprise,pending,ITM008,Desk Chair,182.8,606.41,2025-10-29
+447515,8736,Amy Mcclain,Enterprise,pending,ITM015,SSD,171.7,778.11,2025-10-29
+713102,1954,Danielle Reed,Budget,shipped,ITM013,Router,197.36,197.36,2025-10-29
+569811,4071,Shelby Johnson,Premium,new,ITM014,Hard Drive,366.02,366.02,2025-10-29
+569811,4071,Shelby Johnson,Premium,new,ITM015,SSD,11.62,377.64,2025-10-29
+569811,4071,Shelby Johnson,Premium,new,ITM012,Speaker,417.69,795.33,2025-10-29
+569811,4071,Shelby Johnson,Premium,new,ITM003,Keyboard,199.17,994.5,2025-10-29
+844153,9018,Jacob Wright,Budget,cancelled,ITM007,USB Cable,196.28,196.28,2025-10-29
+844153,9018,Jacob Wright,Budget,cancelled,ITM008,Desk Chair,167.42,363.7,2025-10-29
+844153,9018,Jacob Wright,Budget,cancelled,ITM009,Desk Lamp,450.89,814.59,2025-10-29
+844153,9018,Jacob Wright,Budget,cancelled,ITM006,Webcam,55.45,870.04,2025-10-29
+533955,1314,David Reilly,Budget,shipped,ITM004,Monitor,309.01,309.01,2025-10-29
+533955,1314,David Reilly,Budget,shipped,ITM005,Headphones,210.73,519.74,2025-10-29
+533955,1314,David Reilly,Budget,shipped,ITM009,Desk Lamp,177.81,697.55,2025-10-29
+533955,1314,David Reilly,Budget,shipped,ITM010,Phone Case,28.2,725.75,2025-10-29
+533955,1314,David Reilly,Budget,shipped,ITM014,Hard Drive,459.05,1184.8,2025-10-29
+676383,8237,Hannah Stephens,Enterprise,new,ITM010,Phone Case,18.91,18.91,2025-10-29
+676383,8237,Hannah Stephens,Enterprise,new,ITM015,SSD,270.8,289.71,2025-10-29
+676383,8237,Hannah Stephens,Enterprise,new,ITM002,Mouse,75.68,365.39,2025-10-29
+676383,8237,Hannah Stephens,Enterprise,new,ITM007,USB Cable,136.47,501.86,2025-10-29
+427374,3660,Jessica Williams,Standard,other,ITM007,USB Cable,127.9,127.9,2025-10-29
+200428,6738,Hunter Huynh,Budget,other,ITM001,Laptop,87.82,87.82,2025-10-29
+200428,6738,Hunter Huynh,Budget,other,ITM002,Mouse,253.24,341.06,2025-10-29
+200428,6738,Hunter Huynh,Budget,other,ITM006,Webcam,36.13,377.19,2025-10-29
+200428,6738,Hunter Huynh,Budget,other,ITM010,Phone Case,464.02,841.21,2025-10-29
+200428,6738,Hunter Huynh,Budget,other,ITM005,Headphones,124.41,965.62,2025-10-29
+642685,4184,Catherine Grant MD,Premium,other,ITM002,Mouse,294.96,294.96,2025-10-29
+642685,4184,Catherine Grant MD,Premium,other,ITM004,Monitor,33.86,328.82,2025-10-29
+713672,8370,Jennifer Griffith,Budget,cancelled,ITM009,Desk Lamp,352.91,352.91,2025-10-29
+713672,8370,Jennifer Griffith,Budget,cancelled,ITM015,SSD,292.05,644.96,2025-10-29
+713672,8370,Jennifer Griffith,Budget,cancelled,ITM007,USB Cable,489.03,1133.99,2025-10-29
+713672,8370,Jennifer Griffith,Budget,cancelled,ITM011,Charger,238.53,1372.52,2025-10-29
+713672,8370,Jennifer Griffith,Budget,cancelled,ITM004,Monitor,296.54,1669.06,2025-10-29
+690699,3531,Bryan Rice,Enterprise,other,ITM012,Speaker,395.13,395.13,2025-10-29
+125655,8809,Andre Weaver,Budget,shipped,ITM015,SSD,229.18,229.18,2025-10-29
+125655,8809,Andre Weaver,Budget,shipped,ITM011,Charger,219.73,448.91,2025-10-29
+125655,8809,Andre Weaver,Budget,shipped,ITM004,Monitor,335.44,784.35,2025-10-29
+125655,8809,Andre Weaver,Budget,shipped,ITM005,Headphones,28.67,813.02,2025-10-29
+513989,9714,Latoya Hicks,Budget,shipped,ITM010,Phone Case,207.11,207.11,2025-10-29
+513989,9714,Latoya Hicks,Budget,shipped,ITM013,Router,458.84,665.95,2025-10-29
+116341,7042,Jose Booth,Budget,cancelled,ITM004,Monitor,77.11,77.11,2025-10-29
+116341,7042,Jose Booth,Budget,cancelled,ITM015,SSD,246.78,323.89,2025-10-29
+647583,7775,Nicole Lopez,Budget,pending,ITM006,Webcam,439.05,439.05,2025-10-29
+647583,7775,Nicole Lopez,Budget,pending,ITM010,Phone Case,308.57,747.62,2025-10-29
+647583,7775,Nicole Lopez,Budget,pending,ITM003,Keyboard,208.11,955.73,2025-10-29
+647583,7775,Nicole Lopez,Budget,pending,ITM013,Router,44.36,1000.09,2025-10-29
+540615,9731,Lauren Spears,Enterprise,pending,ITM001,Laptop,143.38,143.38,2025-10-29
+540615,9731,Lauren Spears,Enterprise,pending,ITM015,SSD,10.81,154.19,2025-10-29
+540615,9731,Lauren Spears,Enterprise,pending,ITM007,USB Cable,143.08,297.27,2025-10-29
+540615,9731,Lauren Spears,Enterprise,pending,ITM002,Mouse,85.92,383.19,2025-10-29
+388246,5920,George Brown,Budget,new,ITM011,Charger,349.23,349.23,2025-10-29
+388246,5920,George Brown,Budget,new,ITM001,Laptop,273.15,622.38,2025-10-29
+388246,5920,George Brown,Budget,new,ITM015,SSD,53.47,675.85,2025-10-29
+388246,5920,George Brown,Budget,new,ITM006,Webcam,436.68,1112.53,2025-10-29
+294895,9743,Karen Smith,Enterprise,shipped,ITM001,Laptop,236.69,236.69,2025-10-29
+294895,9743,Karen Smith,Enterprise,shipped,ITM015,SSD,426.08,662.77,2025-10-29
+408283,3529,Taylor Espinoza,Premium,pending,ITM010,Phone Case,47.19,47.19,2025-10-29
+408283,3529,Taylor Espinoza,Premium,pending,ITM001,Laptop,108.98,156.17,2025-10-29
+136744,4790,Christine Warren,Budget,cancelled,ITM015,SSD,53.73,53.73,2025-10-29
+260428,7056,Sean Weaver,Premium,new,ITM004,Monitor,431.75,431.75,2025-10-29
+260428,7056,Sean Weaver,Premium,new,ITM005,Headphones,32.83,464.58,2025-10-29
+260428,7056,Sean Weaver,Premium,new,ITM014,Hard Drive,318.79,783.37,2025-10-29
+260428,7056,Sean Weaver,Premium,new,ITM009,Desk Lamp,57.4,840.77,2025-10-29
+364875,5594,Raymond Gilbert,Premium,shipped,ITM005,Headphones,314.57,314.57,2025-10-29
+364875,5594,Raymond Gilbert,Premium,shipped,ITM003,Keyboard,357.98,672.55,2025-10-29
+364875,5594,Raymond Gilbert,Premium,shipped,ITM006,Webcam,71.13,743.68,2025-10-29
+408483,3213,Eric Booker,Enterprise,new,ITM011,Charger,190.69,190.69,2025-10-29

@@ -9,7 +9,10 @@ def run(sql):
 def csv_to_parquet():
     con = dd.connect(":memory:")
     con.execute("""
-        COPY (SELECT * FROM read_csv_auto('data/raw/*.csv', AUTO_DETECT=TRUE))
+        COPY (
+            SELECT *, YEAR(ds) AS Year 
+            FROM read_csv_auto('data/csv_raw/orders_*.csv', AUTO_DETECT=TRUE)
+        )
         TO 'data/raw_parquet' (FORMAT PARQUET, PARTITION_BY (Year), COMPRESSION ZSTD)
     """)
 
@@ -38,6 +41,38 @@ def big_to_smal_join():
         ) TO 'data/out/gross_by_segment.parquet' (FORMAT PARQUET)
     """)
 
+def parquet_to_csv():
+    import os
+    from pathlib import Path
+    
+    con = dd.connect(":memory:")
+    
+    # Define input and output directories
+    input_dir = Path("data/raw")
+    output_dir = Path("data/csv_raw")
+    
+    # Create output directory if it doesn't exist
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Get all parquet files in the input directory
+    parquet_files = list(input_dir.glob("*.parquet"))
+    
+    if not parquet_files:
+        print(f"No parquet files found in {input_dir}")
+        return
+    
+    # Convert each parquet file to CSV
+    for parquet_file in parquet_files:
+        csv_filename = parquet_file.stem + ".csv"
+        csv_path = output_dir / csv_filename
+        
+        con.execute(f"""
+            COPY (
+                SELECT * FROM read_parquet('{parquet_file}')
+            ) TO '{csv_path}' (FORMAT CSV, HEADER TRUE)
+        """)
+        print(f"Converted {parquet_file.name} -> {csv_filename}")
+
 if __name__ == "__main__":
     
     # total_secs, _ = run("""
@@ -52,10 +87,12 @@ if __name__ == "__main__":
 
     # print(f"Local DuckDB read: {local_secs:.2f} seconds for filtered count")
     
-    # csv_to_parquet()
+    csv_to_parquet()
+
+    # parquet_to_csv()
 
     # compute_daily_aggregates()
     # print("ETL complete.")
 
-    big_to_smal_join()
-    print("Join complete.")
+    # big_to_smal_join()
+    # print("Join complete.")
