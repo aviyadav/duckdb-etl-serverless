@@ -1,0 +1,14 @@
+[project]
+name = "local-etl-using-duckdb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.4.2",
+    "pyarrow>=22.0.0",
+    "pandas==2.3.3",
+    "polars==1.35.2",
+    "pyarrow==22.0.0",
+    "tabulate>=0.9.0",
+]
